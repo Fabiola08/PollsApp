@@ -1,11 +1,60 @@
 body{
-    margin: 10;
+    margin: 0;
     padding: 0;
     font-family:'Times New Roman', Times, serif;
+    
 }
 
-h3{
-    color: blue;
-    font-size: 28px;
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 45px;
+    list-style-type: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #eb4cb3;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #b3008c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    background-color: #940083;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    background-color: #421636;
+    color: #fff;
+    padding: 2px 80;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Asegura que la barra se muestre por encima de otros elementos */
+}
+
+.container {
+    margin-top: 40px; /* Ajusta el espacio para evitar que el contenido se solape con la barra fija */
+    padding: 20px;
 }
 

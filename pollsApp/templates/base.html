@@ -8,6 +8,21 @@
     <title>Encuestas | {% block title %}{% endblock %}</title>
 </head>
 <body>
+    <!-- <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="{% url 'polls:home' %}" class="nav__logo">
+                 <i class="ri-planet-line"></i> Encuestas
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div> -->
+        <div class="navbar">
+            <h1>Encuestas</h1>
+        </div>
     <div class="container">
         {% block content %}
         {% endblock %}
